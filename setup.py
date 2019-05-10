@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name="slock",
-      version="2.0.0",
+      version="1.0.0",
       description="Basic authentication for django.",
       packages=["slock"],
       author="Iury O. G. Figueiredo",
@@ -12,6 +12,7 @@ setup(name="slock",
       download_url='',
       keywords=[],
       classifiers=[])
+
 
 
 
