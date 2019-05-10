@@ -43,6 +43,10 @@ git checkout master
 git merge staging
 git push -u origin master
 git checkout staging
+##############################################################################
+# Upload it to pypi.
+python setup.py sdist register upload
+rm -fr dist
 
 
 
