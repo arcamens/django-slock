@@ -47,8 +47,19 @@ git checkout staging
 # Upload it to pypi.
 python setup.py sdist register upload
 rm -fr dist
+##############################################################################
+cd ~/projects/
 
+django-admin startproject demo django-slock-code
+#####k#########################################################################
+# create django-slock virtualenv.
+cd ~/.virtualenvs/
+ls -la
+virtualenv django-slock -p python
+#####k#########################################################################
+# activate django-slock virtualenv.
 
-
-
+cd ~/.virtualenvs/
+source django-slock/bin/activate
+cd ~/projects/django-slock-code
 
