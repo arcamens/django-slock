@@ -62,4 +62,14 @@ virtualenv django-slock -p python
 cd ~/.virtualenvs/
 source django-slock/bin/activate
 cd ~/projects/django-slock-code
+##############################################################################
+# Make migrations for the app.
+cd ~/projects/django-slock-code
+
+python manage.py makemigrations slock
+##############################################################################
+# Install requirements.
+cd ~/projects/django-slock-code
+
+pip install -r requirements.txt 
 
